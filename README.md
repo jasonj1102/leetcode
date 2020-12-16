@@ -3,4 +3,4 @@
 
 时间|题目|时间|题目
 ---|--- | --- |---
-2020.12.3| [](https://leetcode-cn.com)git
+2020.12.16| [单词规律](https://leetcode-cn.com/problems/word-pattern/)
