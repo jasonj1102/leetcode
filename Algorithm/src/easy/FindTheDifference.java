@@ -1,6 +1,9 @@
 package easy;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Set;
 
 /**
  * @author jie
@@ -12,7 +15,16 @@ import java.util.Arrays;
 
 public class FindTheDifference {
     public char findTheDifference(String s, String t) {
-
-
+        int[] arr = new int[26];
+        for(int i = 0 ;i<s.length();i++){
+            arr[s.charAt(i)-'a']++;
+        }
+        for(int i = 0 ;i<t.length();i++){
+            arr[t.charAt(i)-'a']--;
+            if(arr[t.charAt(i)-'a']<0){
+                return t.charAt(i);
+            }
+        }
+        return ' ';
     }
 }
