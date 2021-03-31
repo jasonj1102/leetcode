@@ -1,4 +1,7 @@
-## 每日一题
+<h2 align="center">每日一题</h2>
+
+### :handshake: 前言
+记录着每日一刷算法题:strawberry: 
 
 
 时间|题目|时间|题目
